@@ -4,7 +4,7 @@ chrome_browser = webdriver.Chrome('./chromedriver')
 
 chrome_browser.get('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
 
-print('Selenium est une bombe !' in chrome_browser.title)
+print('Selenium est une nouvelle bombe !' in chrome_browser.title)
 
 show_message_button = chrome_browser.find_element_by_class_name('btn-default')
 
